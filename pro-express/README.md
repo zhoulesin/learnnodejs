@@ -1,5 +1,7 @@
 # pro-express项目
 
+## 实现Node最简单交互
+
 ## 项目环境
 
 - node 项目运行环境
@@ -62,5 +64,18 @@
 
 ## 运行
 
-- 在node中运行node app.js
-- 在浏览器中访问localhost:3000/students
+- 安装项目所需环境
+
+  ```shell
+  npm install
+  ```
+
+- 在node中运行
+
+  ```shell
+  node app.js
+  ```
+
+- 在浏览器中访问
+
+  http://localhost:3000/students
