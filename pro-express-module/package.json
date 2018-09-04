@@ -1,0 +1,19 @@
+{
+  "name": "pro-express-module",
+  "version": "1.0.0",
+  "description": "所有的请求处理放在一个router文件中,该文件只处理请求",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "art-template": "^4.13.0",
+    "body-parser": "^1.18.3",
+    "bootstrap": "^3.3.7",
+    "express": "^4.16.3",
+    "express-art-template": "^1.0.1"
+  }
+}

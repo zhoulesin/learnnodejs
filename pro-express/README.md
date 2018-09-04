@@ -6,8 +6,11 @@
 
 - node 项目运行环境
 - express 网络框架
+- art-template 模板框架
 - express-art-template 模板渲染框架
 - body-parser 网络请求参数框架
+- bootstrap 响应式布局框架
+  - *** 请使用3.3.7版本
 - 数据保存在文件中
 
 ## 项目功能

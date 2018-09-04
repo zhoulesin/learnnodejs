@@ -87,10 +87,12 @@ app.post('/students/edit',function(req,rsp){
 
 		var student = req.body
 
+		student.id = parseInt(student.id)
+
 		var stus  = JSON.parse(data).students
 
 		var stu = stus.find(function(item){
-			return item.id === parseInt(student.id)
+			return item.id === student.id
 		})
 
 		for(var key in student){
